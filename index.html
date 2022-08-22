@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <!-- CSS link -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <main>
+        <!-- Form Bölümü -->
+        <form class="form">
+            <!-- Form Basligi -->
+            <h1>Register Form</h1>
+            <!-- Formm icindeki bölümler -->
+            <section class="form-section">
+                <label for="name">Fullname *</label><br>
+                <input type="text" name="name" class="form-input" required><br>
+                <span>Required</span>
+            </section>
+            <section class="form-section">
+                <label for="email">Email *</label><br>
+                <input type="email" name="email" class="form-input" required>
+                <span>Required</span>
+            </section>
+            <section class="form-section">
+                <label for="tel">Phone *</label><br>
+                <input type="number" name="tel" class="form-input" placeholder="(___) ___ __ __" required>
+                <span>Required</span>
+            </section>
+            <section class="form-section">
+                <label for="password">Password *</label><br>
+                <input type="password" name="password" class="form-input" required>
+                <span>Required</span>
+            </section>
+            <!-- buton bölümü -->
+            <section class="form-section">
+                <input type="submit" value="Send" id="btn">
+            </section>
+        </form>
+    </main>
+</body>
+</html>
